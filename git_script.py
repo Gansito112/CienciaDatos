@@ -15,7 +15,8 @@ else:
 remote_check = os.popen("git remote -v").read()
 if "origin" not in remote_check:
     print("🔹 Agregando repositorio remoto...")
-    os.system("git remote add origin https://github.com/Gansito112/CienciaDatos.git")
+     os.system("git remote add origin https://github.com/Gansito112/CienciaDatos.git")
+")
 else:
     print("✅ El repositorio remoto ya está configurado.")
 
